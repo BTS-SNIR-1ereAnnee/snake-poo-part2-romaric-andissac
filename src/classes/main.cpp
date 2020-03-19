@@ -42,18 +42,32 @@ int main()
     while (!collision)
     {
         if(kbhit())
-        {
+        {   
+            //Permet d'utiliser de voir quand on appuis sur le clavier
+            
             switch (getch())
             {
+            
+            //259 est la fleche du haut
+            
             case 259:
-                directionEnCours = TOUCHE_KEY_UP;
+                directionEnCours = TOUCHE_KEY_UP;   
                 break;
+                
+            //260 est la fleche de gauche
+            
             case 260:
                 directionEnCours = TOUCHE_KEY_LEFT;
                 break;
+                
+            //258 est la fleche du bas
+            
             case 258:
                 directionEnCours = TOUCHE_KEY_DOWN;
                 break;
+                
+            //261 est la fleche de droite
+            
             case 261:
                 directionEnCours = TOUCHE_KEY_RIGHT;
 
