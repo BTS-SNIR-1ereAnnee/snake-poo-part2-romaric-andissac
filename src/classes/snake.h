@@ -37,6 +37,7 @@ public:
     * \return true en cas de collision
     */
     bool checkColisionWithBoard();
+    bool colision;
 
 
 private:

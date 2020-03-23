@@ -62,6 +62,11 @@ void snake::move(int direction)
 
 }
 
+bool std::operator
+{
+    for 
+}
+
 bool snake::checkColisionWithBoard()
 {
     Board *b;
